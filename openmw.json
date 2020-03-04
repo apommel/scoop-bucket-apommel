@@ -14,8 +14,8 @@
     }
   },
   "post-install": [
-      "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
-    ],
+    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+  ],
   "bin": ["openmw.exe", "openmw-cs.exe", "openmw-launcher.exe", "openmw-wizard.exe"],
   "shortcuts": [
     ["openmw.exe", "OpenMW"],
