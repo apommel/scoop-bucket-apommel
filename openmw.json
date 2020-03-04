@@ -13,9 +13,7 @@
       "hash": "45035b1d94ace4b36f2ba9907d9702debf615b97acbc78a9c550c2d29da74b5a"
     }
   },
-  "post-install": [
-    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
-  ],
+  "post-install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
   "bin": ["openmw.exe", "openmw-cs.exe", "openmw-launcher.exe", "openmw-wizard.exe"],
   "shortcuts": [
     ["openmw.exe", "OpenMW"],
