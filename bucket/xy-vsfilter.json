@@ -13,9 +13,9 @@
       "extractdir": "x86"
     }
   },
-  "post_install": "$dir\\Install_XySubFilter.bat",
+  "post_install": "start-process \"$dir\\Install_XySubFilter.bat\"",
   "uninstaller": {
-    "script": "$dir\\Uninstall_XySubFilter.bat"
+    "script": "start-process \"$dir\\Uninstall_XySubFilter.bat\""
   },
   "checkver": {
     "github": "https://github.com/pinterf/xy-VSFilter/"
