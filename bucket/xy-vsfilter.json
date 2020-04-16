@@ -7,15 +7,15 @@
   "hash": "4c598b050d3cefdd8f7ebed1b6ff96ddaaa3af8d4dba29a2dc414277a30ef5de",
   "architecture": {
     "64bit": {
-      "extractdir": "x64"
+      "extract_dir": "x64"
     },
     "32bit": {
-      "extractdir": "x86"
+      "extract_dir": "x86"
     }
   },
-  "post_install": "start-process \"$dir\\Install_XySubFilter.bat\"",
+  "post_install": "Start-Process \"$dir\\Install_XySubFilter.bat\"",
   "uninstaller": {
-    "script": "start-process \"$dir\\Uninstall_XySubFilter.bat\""
+    "script": "Start-Process \"$dir\\Uninstall_XySubFilter.bat\""
   },
   "checkver": {
     "github": "https://github.com/pinterf/xy-VSFilter/"
