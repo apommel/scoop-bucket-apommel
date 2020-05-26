@@ -1,0 +1,18 @@
+{
+  "homepage": "https://nlpjapanesedictionary.wordpress.com/",
+  "description": "A Free and Open Source Japanese Dictionary for Windows Devices.",
+  "version": "1.1.0.0",
+  "license": "Apache-2.0",
+  "bin": "NLPJapaneseDictionary.exe",
+  "url": "https://github.com/AnkiUniversal/NLP-Japanese-Dictionary/releases/download/v1.1.0.0/NLPJapaneseDictionary.zip",
+  "hash": "ca98389513ae505a956d10f412edc1f5a2bd35c4f79a47a6c412fc79a6a16eb7",
+  "checkver": {
+    "github": "https://github.com/AnkiUniversal/NLP-Japanese-Dictionary"
+  },
+  "autoupdate": {
+    "url": "https://github.com/AnkiUniversal/NLP-Japanese-Dictionary/releases/download/v$version/NLPJapaneseDictionary.zip",
+    "hash": {
+      "url": "$baseurl/SHA2-256SUMS"
+    }
+  }
+}
