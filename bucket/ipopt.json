@@ -4,6 +4,7 @@
   "version": "3.13.2",
   "license": "EPL-1.0",
   "extract_dir": "Ipopt-3.13.2-win64-msvs2019-md",
+  "bin": "bin\\ipopt.exe",
   "architecture": {
     "64bit": {
       "url": "https://github.com/coin-or/Ipopt/releases/download/releases%2F3.13.2/Ipopt-3.13.2-win64-msvs2019-md.zip",
