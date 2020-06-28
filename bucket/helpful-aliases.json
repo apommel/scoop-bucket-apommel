@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "description": "A command line tool to examine and manipulate plugins for the Elder Scrolls game Morrowind",
+    "license": "Unlicense",
+    "bin": "tes3cmd.exe",
+    "url": "https://github.com/john-moonsugar/tes3cmd/releases/download/v0.40-pre-release-2/tes3cmd.exe",
+    "hash": "2d2e02b5dad03f572bdf568d141582c207c5369cfcf73ccd28971be40ff9c117"
+  }

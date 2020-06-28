@@ -1,28 +1,28 @@
 {
-  "homepage": "https://github.com/kaegi/alass",
-  "description": "Automatic Language-Agnostic Subtitle Synchronization",
-  "version": "2.0.0",
-  "license": "GNU General Public License v3.0",
-  "depends": "ffmpeg",
-  "extract_dir": "alass-windows64\\bin",
-  "bin": [ [ "alass-cli.exe", "alass" ] ],
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/kaegi/alass/releases/download/v2.0.0/alass-windows64.zip",
-      "hash": "e81a72f97f592910e909a2352d6b8c0de0801c51ac1383bad4ebf3f2ecdd2fd8"
-    }
-  },
-  "checkver": {
-    "github": "https://github.com/kaegi/alass"
-  },
-  "autoupdate": {
+    "version": "2.0.0",
+    "description": "A command line tool to synchronize subtitles to movies.",
+    "homepage": "https://github.com/kaegi/alass",
+    "license": "GPL-3.0-or-later",
+    "depends": "ffmpeg",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/kaegi/alass/releases/download/v$version/alass-windows64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/kaegi/alass/releases/download/v2.0.0/alass-windows64.zip",
+            "hash": "e81a72f97f592910e909a2352d6b8c0de0801c51ac1383bad4ebf3f2ecdd2fd8"
+        }
     },
-    "hash": {
-      "url": "$baseurl/SHA2-256SUMS"
+    "extract_dir": "alass-windows64\\bin",
+    "bin": [ [ "alass-cli.exe", "alass" ] ],
+    "checkver": {
+        "github": "https://github.com/kaegi/alass"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kaegi/alass/releases/download/v$version/alass-windows64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
